@@ -1,7 +1,10 @@
 ## VPC
+VPC Endpoint
 ## Subnets
 ## Route Tables
 ## API Gateway
+## Internet Gateway
+## Security Group
 ## Route53
 ## ELB
 - Automatically distributes incoming traffic accross multiple targets
@@ -13,12 +16,14 @@
     - Least Time: sends request to server (fasted response time + fewest connections
     - IP Hash: IP address of client is used to determine which server gets the request
     - Random w/ Two Choices: picks 2 servers at random, then applies the least connection algoritm to route traffic
-
+- Can be accessed w/o public IP b yusing a VPC Endpoint
+- You cannot change load balancer types after one is deployed
 ### Application Load Balancer
 - balance HTTP and HTTP requests. Good for modern apps, target is instances, lambda, or IP address
 - charged per hour or partial hour the ALB is running and the number of Load Balncer Capacity Units (LCU) used per hour
 ### Network Load Balancer
 - TCP, TLS, UDP. Good for ultra high performance. Targets like instances created inside instance group
+- Also known as layer 4 listener
 - charged per hour or partial hour the NLB is running and the number of Network Load Balncer Capacity Units (NLCU) used per hour
 ### Gateway Load Balancer
 - scale out and deploy 3rd party appliances (security hardware) instance or IPs
