@@ -26,3 +26,8 @@
 
 
 ### SES (Simple Email Services)
+- send email from within any application (e.g. transactional, marketing, or communications)
+- Email can be up to 10MB in size
+- There are limits on :
+    - number of recipients you can send emails to in 24hr period
+    - number of emails sent per second
