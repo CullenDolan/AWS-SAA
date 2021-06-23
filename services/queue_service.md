@@ -4,7 +4,9 @@
 - Pay as you go, no upfront costs
 - best example is to send time critical notifications to mobile apps
 
-![SNS](https://github.com/CullenDolan/AWS-SAA/blob/master/images/sns.png)
+![SNS]()
+
+<img src="https://github.com/CullenDolan/AWS-SAA/blob/master/images/sns.png" alt="SNS" height="200" style="vertical-align:top; margin:100px">
 
 ### SQS (Simple Queue Services)
 - Messages are stored on a queue until they are processed and deleted
