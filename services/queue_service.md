@@ -7,6 +7,7 @@
 <img src="https://github.com/CullenDolan/AWS-SAA/blob/master/images/sns.png" alt="SNS" height="200" style="vertical-align:top; margin:100px">
 
 ### SQS (Simple Queue Services)
+- Keyword: **Decouples** services
 - Messages are stored on a queue until they are processed and deleted
 - Standard Queue Features
     - "Unlimited" per second throughput
@@ -16,5 +17,7 @@
     - 300 send, receive, or delete messages per second
     - No duplicates and sits in the queue until consumer processes it
 - Can be batched up to 10 messages at a time or 256KB 
-- Billed in 64 KB chunks
-- Use **Long Polling** to extend poll request up to 20 seconds
+- Billed per request and a data transfer fee (in 64 KB chunks)
+- If data is transferred in the same region
+- Use **Long Polling** to extend poll request up to 20 seconds to reduce cost and maximize the chance of getting a message
+- Can be used with SNS, REdshift, DynamDB, RDS, EC2, ECS, Lambda, and S3
