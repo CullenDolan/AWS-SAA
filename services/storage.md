@@ -27,3 +27,7 @@
 - provides read after write consistency
 
 [Best Explanation Ever in the differences](https://stackoverflow.com/questions/29575877/aws-efs-vs-ebs-vs-s3-differences-when-to-use)
+
+## IOPS vs Throughput
+- IOPS is the number of read or write operations per second and device can perform
+- Throughput is the number of bits read or written per second
