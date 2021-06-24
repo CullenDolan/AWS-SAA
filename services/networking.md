@@ -18,8 +18,11 @@ VPC Endpoint
     - Random w/ Two Choices: picks 2 servers at random, then applies the least connection algoritm to route traffic
 - Can be accessed w/o public IP b yusing a VPC Endpoint
 - You cannot change load balancer types after one is deployed
+- No ELBs can cross regions
 ### Application Load Balancer
 - balance HTTP and HTTP requests. Good for modern apps, target is instances, lambda, or IP address
+- you are required to have at least 2 AZs
+- you can attach a Web Application Firewall (WAF) ti this type only
 - charged per hour or partial hour the ALB is running and the number of Load Balncer Capacity Units (LCU) used per hour
 ### Network Load Balancer
 - TCP, TLS, UDP. Good for ultra high performance. Targets like instances created inside instance group
