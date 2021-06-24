@@ -3,7 +3,7 @@
 
 ## Elastic Block Storage (EBS) 
 - easy to use block storage for EC2 (virtual hard disk)
-- the data for your datbase is stored on EBS and your boot volume (the server OS). This is what you change depending on how much data you store in the db
+- the data for your database is stored on EBS and your boot volume (the server OS). This is what you change depending on how much data you store in the db
 - There are 2 categories and 6 types on volumes:
     - SSD (General Purpose and Provisioned IOPS)
         - gp3: best for balancing price and performance (virtual desktop, medium sized single instance db)
@@ -18,9 +18,10 @@
 - You can take a snapshot while the instance is running but...
 - Stop the instance before taking snapshot of the root volume
 - AMIs can be created with the volume or snapshot
-- 
+- **Instance Store Volumes** are temporary storage volumes, physically accted to the host device. They can't be stopped and if the host fails the data is lost.
 - EBS backed instances can be stopped 
 ## Elastic File System (EFS)
 - Allows you to share data w/o provsioning or managing storage
 - stored across multiple AZs by default within 1 region
 - creates moint points in all VPC subnets so you can mount from anywhere in the VPC
+- provides read after write consistency
