@@ -25,3 +25,5 @@
 - stored across multiple AZs by default within 1 region
 - creates moint points in all VPC subnets so you can mount from anywhere in the VPC
 - provides read after write consistency
+
+[Best Explanation Ever in the differences](https://stackoverflow.com/questions/29575877/aws-efs-vs-ebs-vs-s3-differences-when-to-use)
