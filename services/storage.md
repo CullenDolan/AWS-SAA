@@ -1,5 +1,11 @@
 ## Simple Storage Service (S3)
-- Infinitely scalable storage solution 
+- Infinitely scalable storage solution with 99.99% availabilty and 11 9's of durability
+- Standard, Intelligent-Tiering, Infrequent Access, Glacier, Glacier Deep Archive
+- Object based storage (a file) from 0 - 5 TB in size
+- made of a key (name of object), value (data w/in the file), version ID, metadata, access control lists, and policies
+- read after write consistency for PUTS of new objects (update happens immediately)
+- eventual consistency for overwrite PUTS and DELETES (takes time to propogate)
+- Life cycle management to move or delete objects
 
 ## Elastic Block Storage (EBS) 
 - easy to use block storage for EC2 (virtual hard disk)
