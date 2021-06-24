@@ -13,8 +13,8 @@
         - io2: designed for high I/O applications (No-SQL dbs) 
         - io1: similar but lower durability
 
-    - HHD
-        - st1
-        - sc1
+    - HHD 
+        - st1: Throughput optimized, good for big data and data warehousing
+        - sc1: Cold storage, lowest cost per GB. Anything requiring fewer scans per day
 
 ## EFS
