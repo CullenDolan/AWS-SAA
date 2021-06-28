@@ -27,6 +27,11 @@
 - **Instance Store Volumes** are temporary storage volumes, physically accted to the host device. They can't be stopped and if the host fails the data is lost.
 - EBS backed instances can be stopped 
 
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+
 |Volume Type|EBS Provisioned IOPS SSD (io2)|EBS Provisioned IOPS SSD (io1)|EBS General Purpose SSD (gp3)|EBS General Purpose SSD (gp2)|
 |-----------||-----------||-----------||-----------||-----------|
 |Short Description|High performance SSD volume designed for business-critical latency-sensitive applications|High performance SSD volume designed for latency-sensitive transactional workloads|General Purpose SSD volume that balances price performance for a wide variety of transactional workloads|General Purpose SSD volume that balances price performance for a wide variety of transactional workloads|
