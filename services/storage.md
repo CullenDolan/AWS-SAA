@@ -27,14 +27,19 @@
 - **Instance Store Volumes** are temporary storage volumes, physically accted to the host device. They can't be stopped and if the host fails the data is lost.
 - EBS backed instances can be stopped 
 
-| Syntax      | Description | Description |
-| ----------- | ----------- | ----------- |
-| Header      | Title       | Title       |
-| Paragraph   | Text        | Text        |
 
 | Volume Type | EBS Provisioned IOPS SSD (io2) | EBS Provisioned IOPS SSD (io1) | EBS General Purpose SSD (gp3) | EBS General Purpose SSD (gp2) |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | Short Description | High performance SSD volume designed for business-critical latency-sensitive applications | High performance SSD volume designed for latency-sensitive transactional workloads |General Purpose SSD volume that balances price performance for a wide variety of transactional workloads | General Purpose SSD volume that balances price performance for a wide variety of transactional workloads |
+| Use Cases | I/O-intensive NoSQL & relational databases | I/O-intensive NoSQL & relational databases | virtual desktops, medium sized single instance databases such as MSFT SQL Server and Oracle DB, low-latency interactive apps, dev & test, boot volumes | Boot volumes, low-latency interactive apps, dev & test |
+| Volume Size | 4 GB – 16 TB | 4 GB – 16 TB | 1 GB – 16 TB | 1 GB – 16 TB |
+| Durability | 99.999% | 99.8% - 99.9% | 99.8% - 99.9% | 99.8% - 99.9% |
+| Max IOPS*/Volume | 64,000 | 64,000 | 16,000 | 16,000 |
+| Max Throughput**/Volume | 1,000 MB/s | 1,000 MB/s | 1,000 MB/s | 250 MB/s |
+| Max IOPS/Instance | 160,000 | 260,000 | 260,000 | 260,000 |
+| Max IOPS/GB | 500 IOPS/GB | 50 IOPS/GB | n/a | n/a |
+| Max Throughput/Instance | 4,750 MB/s | 7,500 MB/s | 7,500 MB/s | 7,500 MB/s |
+| Latency | single digit millisecond | single digit millisecond | single digit millisecond | single digit millisecond |
 
 ## Elastic File System (EFS)
 - Allows you to share data w/o provsioning or managing storage
