@@ -1,9 +1,38 @@
 ## VPC
-VPC Endpoint
+- locally isolated section to launch resources.
+- region specific and connt span to another region, with 5 VPCs per region
+- Defined by IP ranges, or **CIDR Blocks**, that cannot be changed after creation
+- **VPC Peering** connects one VPC to another
+- **VPC Endpoint** keeps AWS traffic  between AWS services  
+
+## NACL (Network Access Control List)
+- Allows inbound/outbound trafic to a subnet
+- once is automatically created w/ a VPC
+- Virtual firewall at a subnet level
+
 ## Subnets
+- different sections within a VPC to isolate resources further (publc & private subnets)
+- 
+
+## NAT (Network Access Translation)
+### NAT Gateway
+- sits in a public subnet and allows resources in a private subnet access to the internet
+- One NAT gateway per AZ
+- Route tables have to be updated manually
+### NAT Instance
+- Legacy method created by launching an EC2 instance with a specific AMI
+- 
+
+-
 ## Route Tables
+- used to determine where traffic can be directed
+- listed by CIDR block ranges
+- Can allow traffic b/t subnets in a VPC, but everything is allowed by default
+- Ther can be one route table but many subnets
 ## API Gateway
 ## Internet Gateway
+- VPC side of a connection to the internet
+- like the highway to the rest of the wordl
 ## Security Group
 ## Route53
 ## ELB
