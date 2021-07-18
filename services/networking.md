@@ -9,31 +9,40 @@
 - Allows inbound/outbound trafic to a subnet
 - once is automatically created w/ a VPC
 - Virtual firewall at a subnet level
+- You **can** block specific IP addresses
 
 ## Subnets
 - different sections within a VPC to isolate resources further (publc & private subnets)
-- 
+- split furht by CIDR blocks
 
 ## NAT (Network Access Translation)
 ### NAT Gateway
 - sits in a public subnet and allows resources in a private subnet access to the internet
 - One NAT gateway per AZ
 - Route tables have to be updated manually
+
 ### NAT Instance
 - Legacy method created by launching an EC2 instance with a specific AMI
-- 
+- Must be in public subnet
 
--
 ## Route Tables
 - used to determine where traffic can be directed
 - listed by CIDR block ranges
 - Can allow traffic b/t subnets in a VPC, but everything is allowed by default
 - Ther can be one route table but many subnets
+
 ## API Gateway
+
+
 ## Internet Gateway
 - VPC side of a connection to the internet
-- like the highway to the rest of the wordl
+- like the highway to the rest of the world
+
 ## Security Group
+- Firewall at the instance level
+- all inbound is blocked by default unless specified
+- all aoutboun dis allowed by ddefault unless specified
+- You **cannot** block specific IP addresses with an SG, use a NACL 
 ## Route53
 ## ELB
 - Automatically distributes incoming traffic accross multiple targets
