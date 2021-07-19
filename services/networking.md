@@ -10,10 +10,12 @@
 - once is automatically created w/ a VPC
 - Virtual firewall at a subnet level
 - You **can** block specific IP addresses
+- NACLs are Stateless
 
 ## Subnets
 - different sections within a VPC to isolate resources further (publc & private subnets)
 - split further by CIDR blocks
+- subnets are public if they can route traffic directly through the iternet gateway
 
 ## NAT (Network Access Translation)
 ### NAT Gateway
@@ -41,10 +43,11 @@
 
 ## Security Group
 - Firewall at the instance level
-- all inbound is blocked by default unless specified
+- all inbound is blocked by default unless specified but allows access to other instances in the same security group
 - all aoutboun dis allowed by ddefault unless specified
 - You **cannot** block specific IP addresses with an SG, use a NACL
 - EC2 can be in multiple SGs and SGs can contain multiple EC2s 
+- SGs are stateful
 
 ## Route53
 ## ELB
