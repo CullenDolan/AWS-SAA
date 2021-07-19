@@ -50,6 +50,8 @@
 - SGs are stateful
 
 ## Route53
+- DNS provider, register, and domain manager
+
 ## ELB
 - Automatically distributes incoming traffic accross multiple targets
 - Also known as a ***Reverse Proxy**
