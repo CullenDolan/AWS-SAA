@@ -1,7 +1,7 @@
 ## VPC
 - locally isolated section to launch resources.
 - region specific and connt span to another region, with 5 VPCs per region
-- Defined by IP ranges, or **CIDR Blocks**, that cannot be changed after creation
+- Defined by IP ranges, or **CIDR Blocks**, that **CAN** be changed after creation by adding an additional CIDR range
 - **VPC Peering** connects one VPC to another
 - **VPC Endpoint** privately connect to AWS services w/o internet gateway
 
