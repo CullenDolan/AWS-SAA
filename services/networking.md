@@ -3,7 +3,7 @@
 - region specific and connt span to another region, with 5 VPCs per region
 - Defined by IP ranges, or **CIDR Blocks**, that cannot be changed after creation
 - **VPC Peering** connects one VPC to another
-- **VPC Endpoint** keeps AWS traffic  between AWS services  
+- **VPC Endpoint** privately connect to AWS services w/o internet gateway
 
 ## NACL (Network Access Control List)
 - Allows inbound/outbound trafic to a subnet
@@ -13,7 +13,7 @@
 
 ## Subnets
 - different sections within a VPC to isolate resources further (publc & private subnets)
-- split furht by CIDR blocks
+- split further by CIDR blocks
 
 ## NAT (Network Access Translation)
 ### NAT Gateway
@@ -31,9 +31,10 @@
 - Can allow traffic b/t subnets in a VPC, but everything is allowed by default
 - Ther can be one route table but many subnets
 
-## API Gateway
-
-
+## Elastic IP Address
+- One is assigned to your AWS account to be able to route traffic to different instances if one fails
+- Static and does not change over time
+- 
 ## Internet Gateway
 - VPC side of a connection to the internet
 - like the highway to the rest of the world
@@ -42,7 +43,9 @@
 - Firewall at the instance level
 - all inbound is blocked by default unless specified
 - all aoutboun dis allowed by ddefault unless specified
-- You **cannot** block specific IP addresses with an SG, use a NACL 
+- You **cannot** block specific IP addresses with an SG, use a NACL
+- EC2 can be in multiple SGs and SGs can contain multiple EC2s 
+
 ## Route53
 ## ELB
 - Automatically distributes incoming traffic accross multiple targets
@@ -72,3 +75,10 @@
 ### Classic Load Balancer
 - HTTP(S) and TCP but this is legacy
 - charged per hour or partial hour the CLB is running and each GB of data that passes thru the LB
+
+## Elastic Network Interface
+- Represents a virtual network card
+- each network has a primary network interface
+- 
+
+## API Gateway
