@@ -8,7 +8,7 @@
 - **Storage Optimized** (I, G, H): requires high sequential read/write acces to large data set on local storage. 10,000s I/O operations / second. Use cases such as NoSQL database
 
 ## Storage Options
-### [EBS] (https://github.com/CullenDolan/AWS-SAA/blob/master/services/storage.md#elastic-block-storage-ebs)
+### [EBS](https://github.com/CullenDolan/AWS-SAA/blob/master/services/storage.md#elastic-block-storage-ebs)
 - easy to use virtual hard disk
 - EBS persists independently from the EC2 instance
 - Once it is attached, it can be used like any other physical hard disk
@@ -19,4 +19,4 @@
 - Only persisted while the EC2 is running
 
 ### Performance Testing
--
+- 
