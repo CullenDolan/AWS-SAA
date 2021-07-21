@@ -24,3 +24,10 @@
 3. Select the instance family
 4. Size the workload
 5. Test at and application level (but AWS would say this so start maller and size up, in my opinion)
+
+## Auto Scaling
+- Automatically add or remove EC2 instances according to conditions I define
+- Dynamic or predictive scaling to maintain the health of the infrastructure
+- **Fleet Management**: automatically detect and replace unhealthy EC2 instances or balance work loads across AZs
+- **Scheduled Scaling**: Scale based on known dates or times when load will change 
+-  **Predictive Scaling**: Takes CloudWatch data from the past 14 days to model future behvior. Limitation for spike events like black friday. 
