@@ -32,4 +32,4 @@ The key words in the Exam Guide that I will focus on and group my notes are as f
 
 [Corey Quinn](https://twitter.com/QuinnyPig)
 
-[J Cole Morrison] (https://start.jcolemorrison.com/aws-vpc-core-concepts-analogy-guide/)
+[J Cole Morrison](https://start.jcolemorrison.com/aws-vpc-core-concepts-analogy-guide/)
