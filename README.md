@@ -21,8 +21,13 @@ The key words in the Exam Guide that I will focus on and group my notes are as f
 [Serverless](https://github.com/CullenDolan/AWS-SAA/blob/master/services/serverless.md)
 
 Resources I used:
+
 [Cloudonaut.io](https://cloudonaut.io/)
+
 [Cloudskills.io](https://cloudskills.io/)
+
 [Jayendra's Cloud Blog](https://jayendrapatil.com/)
+
 [Ned Bellavance](https://twitter.com/Ned1313)
+
 [Corey Quinn](https://twitter.com/QuinnyPig)
