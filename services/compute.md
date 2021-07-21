@@ -19,4 +19,8 @@
 - Only persisted while the EC2 is running
 
 ### Performance Testing
-- 
+1. Assess the requirements of your application
+2. Identify how your application needs to compare to different instance families (compute, memory. general, etc)
+3. Select the instance family
+4. Size the workload
+5. Test at and application level (but AWS would say this so start maller and size up, in my opinion)
