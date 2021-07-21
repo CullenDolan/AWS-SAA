@@ -1,3 +1,14 @@
+
+| DB Type | Use Case | AWS Service |
+| Relational | Traditional applications, transaction data, CRM | RDS, Aurora, Redshift |
+| Key Value | High traffic web apps, e-commerce systems, web games | DynamoDB |
+| In-memory | caching, session managment, geospatial applications | Elasticache (Memcached or Redis) |
+| Document | Content Management, catalogs, user profiles | DocumentDB (w/ MongoDB |
+| Wide Column | High scale industrial apps for equipment maintenance, fleet management, route optimization | Keyspaces (for Apache Casssandra) |
+| Graph | Fraud detection, social networking, recommendation engines | Neptune |
+| Time series | IoT, telemetry, stocks | Timeseries |
+| Ledger | System of record, supply chain, banking transactions | QLDB |
+
 ## RDS
 - Postgres, MySQL, MS SQL, Mariadb, Oracle, Aurora
 - Multi-AZ is an option and good for High Availability
