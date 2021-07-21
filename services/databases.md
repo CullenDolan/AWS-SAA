@@ -1,5 +1,6 @@
 
 | DB Type | Use Case | AWS Service |
+| ----------- | ----------- | ----------- |
 | Relational | Traditional applications, transaction data, CRM | RDS, Aurora, Redshift |
 | Key Value | High traffic web apps, e-commerce systems, web games | DynamoDB |
 | In-memory | caching, session managment, geospatial applications | Elasticache (Memcached or Redis) |
