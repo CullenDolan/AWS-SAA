@@ -20,7 +20,7 @@ The key words in the Exam Guide that I will focus on and group my notes are as f
 
 [Serverless](https://github.com/CullenDolan/AWS-SAA/blob/master/services/serverless.md)
 
-Resources I used:
+**Resources I used:**
 
 [Cloudonaut.io](https://cloudonaut.io/)
 
