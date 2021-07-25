@@ -21,6 +21,12 @@
 -  KMS > Encryption at rest
 -  Send traffic thru AWS resources > Enhanced VPC Routing
 -  KMS in US-east-1 trying to use in EU-West-2 > KMS is region specific
--   
+-  Manage permissions in your organization > Service Control Policy
+-  Access to resources for a limited time > Signed URLs
+-  Share resources with different orgnaizations > Resource Access manager
+-  Access to resources of files from a specific set of IPs Network or Object ACLs
+-  Convert HTTP to HTTPs > "Viewer Protocol Policy of ..." = REdirect HTTP to HTTPS
+-  Get IPSEC connectivity from on-prem to AWS >. AWS Site to Site VPN
+-  
 
 # Cost Optimized
