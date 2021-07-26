@@ -52,3 +52,8 @@
 ## IOPS vs Throughput
 - IOPS is the number of read or write operations per second and device can perform
 - Throughput is the number of bits read or written per second
+
+## Amazon FSx for Lustre
+- Fully managed service that provides high performance, scalable storage for compute workloads
+- best for machine learning, HPC, and video rendering
+- Can be linked to S3 buckets to access and process data directly
