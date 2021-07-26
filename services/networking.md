@@ -21,6 +21,7 @@
 ### NAT Gateway
 - sits in a public subnet and allows resources in a private subnet access to the internet
 - One NAT gateway per AZ
+- cant share NAT gateways across VPCs either
 - Route tables have to be updated manually
 
 ### NAT Instance
