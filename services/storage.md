@@ -57,3 +57,8 @@
 - Fully managed service that provides high performance, scalable storage for compute workloads
 - best for machine learning, HPC, and video rendering
 - Can be linked to S3 buckets to access and process data directly
+
+## Amazon FSx for Windows File Server
+- fully managed, highly reliable, and scalable storage accessible over Server Message Block (SMB) protocol
+- single or multi-AZ deployment options
+- can span multple VPCs, regions, or accounts with VPN, VPC Peering, or AWS transit gateway
