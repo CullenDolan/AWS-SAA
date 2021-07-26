@@ -30,3 +30,7 @@
 -  
 
 # Cost Optimized
+- Savings Plans
+  - you commit to a dollar amount per month within a specific family and AWS provides that
+  - not dependent on a specific OS as long as the instances are in the same family
+  - 
