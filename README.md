@@ -22,6 +22,8 @@ The key words in the Exam Guide that I will focus on and group my notes are as f
 
 **Resources I used:**
 
+[Whizlabs](https://www.whizlabs.com/)
+
 [Cloudonaut.io](https://cloudonaut.io/)
 
 [Cloudskills.io](https://cloudskills.io/)
