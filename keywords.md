@@ -8,6 +8,7 @@
 - fully managed data store / MySQL & Postgres compatible
 -  Disaster recovery for instances. AMI in another region
 -  Data base migration compatibility issues > AWS Schema Conversion Tool
+-  Collection of Logs OR Processing Logs > EMR
 
 
 # Secure
