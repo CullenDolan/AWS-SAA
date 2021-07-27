@@ -9,6 +9,7 @@
 - if you delete an object thru CLI is will immediately delete
 - S3 File Gateway: on-prem applications but storage in the cloud. good for low latency requirements
 - with versioning enabled and an object is delete, the file is still in S3 but AWS pretends it is not there and returns a 404 error
+- folders inside buckets can have different sotarge classes (eg folder 1 = standard and folder 2 = glacier)
 
 ## Elastic Block Storage (EBS) 
 - easy to use block storage for EC2 (virtual hard disk)
