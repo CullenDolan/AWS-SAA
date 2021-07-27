@@ -3,9 +3,12 @@
 - Standard, Intelligent-Tiering, Infrequent Access, Glacier, Glacier Deep Archive
 - Object based storage (a file) from 0 - 5 TB in size
 - made of a key (name of object), value (data w/in the file), version ID, metadata, access control lists, and policies
-- read after write consistency for PUTS of new objects (update happens immediately)
+- strong read after write consistency **for all operations** on new objects (update happens immediately)
 - eventual consistency for overwrite PUTS and DELETES (takes time to propogate)
 - Life cycle management to move or delete objects
+- if you delete an object thru CLI is will immediately delete
+- S3 File Gateway: on-prem applications but storage in the cloud. good for low latency requirements
+- 
 
 ## Elastic Block Storage (EBS) 
 - easy to use block storage for EC2 (virtual hard disk)
