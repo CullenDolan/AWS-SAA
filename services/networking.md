@@ -4,6 +4,7 @@
 - Defined by IP ranges, or **CIDR Blocks**, that **CAN** be changed after creation by adding an additional CIDR range
 - **VPC Peering** connects one VPC to another
 - **VPC Endpoint** privately connect to AWS services w/o internet gateway
+- VPC gateway endpoint supports S3 and DynamoDB only
 
 ## NACL (Network Access Control List)
 - Allows inbound/outbound trafic to a subnet
