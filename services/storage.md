@@ -70,3 +70,7 @@
 ## Kinesis
 - Real time streaming of data
 - default is to store data for 24 hours
+
+## Storage Gateway
+- on prem access to unlimited cloud storage
+- services include S3, FSx, Tape, and volume
