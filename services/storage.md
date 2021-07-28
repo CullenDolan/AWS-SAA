@@ -66,3 +66,7 @@
 - fully managed, highly reliable, and scalable storage accessible over Server Message Block (SMB) protocol
 - single or multi-AZ deployment options
 - can span multple VPCs, regions, or accounts with VPN, VPC Peering, or AWS transit gateway
+
+## Kinesis
+- Real time streaming of data
+- default is to store data for 24 hours
