@@ -90,3 +90,8 @@
 - 
 
 ## API Gateway
+- fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale
+## Transit Gateway
+- connects VPCs to on-prem networks thru a central hub
+- simplifies complexity of peering relationships
+- supports transistive routing and centralized egress
