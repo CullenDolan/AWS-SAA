@@ -20,6 +20,8 @@ The key words in the Exam Guide that I will focus on and group my notes are as f
 
 [Serverless](https://github.com/CullenDolan/AWS-SAA/blob/master/services/serverless.md)
 
+[Keywords and Phrases with Associated Services](https://github.com/CullenDolan/AWS-SAA/blob/master/keywords.md)
+
 **Resources I used:**
 
 [Whizlabs](https://www.whizlabs.com/)
