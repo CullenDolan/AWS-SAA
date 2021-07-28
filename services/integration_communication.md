@@ -12,6 +12,7 @@
 - Can be batched up to 10 messages at a time or 256KB 
 - Billed per request and a data transfer fee (in 64 KB chunks)
 - If data is transferred to EC2 or Lambda in the same region, no data transfer costs
+- SQS dead letter queueisolate a message failure to determine why processing was unsuccessful
 - Use **Long Polling** to extend poll request up to 20 seconds to reduce cost and maximize the chance of getting a message
 - Can be used with SNS, Redshift, DynamDB, RDS, EC2, ECS, Lambda, and S3
 - Standard queues cannot be converted to FIFO queues
