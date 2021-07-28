@@ -95,3 +95,5 @@
 - connects VPCs to on-prem networks thru a central hub
 - simplifies complexity of peering relationships
 - supports transistive routing and centralized egress
+
+#3 Border Gateway protocol
