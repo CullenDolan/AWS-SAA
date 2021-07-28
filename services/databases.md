@@ -18,6 +18,7 @@
 - Automatic backup must be enabled to get read replicas and there can be up to **5** read replicas
 - Read replicas can also be put in other regions
 - Replica can be promoted to their own master db but it will break replication
+- read replicas can be delayed in gettimg data (lag)
 - backup data with Automated backup or manual snapshots
 - the snapshot can be used to create a new db if the original master fails, but you then have to delete the old master and route traffic to the new db
 
