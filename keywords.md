@@ -9,7 +9,7 @@
 -  Disaster recovery for instances. AMI in another region
 -  Data base migration compatibility issues > AWS Schema Conversion Tool
 -  Collection of Logs OR Processing Logs > EMR
-
+- Cloud formation drift not showing for certain values > Explicitly set property values (which can be same as default values)
 
 # Secure
 - Access to resources in private subnet > NAT Gateway
