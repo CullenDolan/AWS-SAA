@@ -2,6 +2,7 @@
 - network interface for clustered enviroments, high number of nodes > Elastic Fabric Adapter
 - Signed URLs > downloa 1 file from a secure site behind cloudfront
 - Signed Cookies > download multiple files behind CloudFront. Don't want to change the current URL
+- S3 needs to be fault tolerate across regions > Enable CORS
 
 # Resiliance
 - Operational During Migration > AWS Database Migration Service
